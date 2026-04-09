@@ -108,7 +108,7 @@ sudo systemctl disable redis-server
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source ~/.cargo/env
 
-git clone https://github.com/kivistore/kivi
+git clone https://github.com/kividbio/kivi
 cd kivi && cargo build --release
 
 wget https://github.com/dragonflydb/dragonfly/releases/latest/download/dragonfly-aarch64.tar.gz
@@ -242,7 +242,7 @@ workload shape. Key factors that affect numbers:
 
 Treat all published figures as **one controlled capture**, not a universal
 guarantee. The benchmark scripts, Terraform, and full raw output live in
-[**github.com/kivistore/kivi-benchmark**](https://github.com/kivistore/kivi-benchmark).
+[**github.com/kividbio/kivi-benchmark**](https://github.com/kividbio/kivi-benchmark).
 
 ---
 

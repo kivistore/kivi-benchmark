@@ -28,7 +28,7 @@ if [[ ! -d /home/ubuntu/.cargo ]]; then
 fi
 source /home/ubuntu/.cargo/env
 if [[ ! -d /home/ubuntu/kivi ]]; then
-  git clone https://github.com/kivistore/kivi
+  git clone https://github.com/kividbio/kivi
 fi
 cd /home/ubuntu/kivi
 git pull --ff-only || true
